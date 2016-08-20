@@ -2,10 +2,16 @@
 
 ### Lernen
 
+* [wikibooks - C](https://de.wikibooks.org/wiki/C-Programmierung)
+
 ### Kommandos
 
 ```
+// Kompilieren
+gcc hallowelt.c -o hallowelt
 
+// Kompilieren mit Warnungen und Debugging-Symbolen
+gcc -g -Wall -Wextra -pedantic-errors hallowelt.c -o hallowelt
 ```
 
 ### Beispiele
